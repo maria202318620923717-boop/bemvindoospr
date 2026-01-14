@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>UltraNet Provedor de Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #0052cc, #00aaff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #003d99;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url("https://picsum.photos/1200/500?internet");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0052cc;
+        }
+
+        .plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .plan {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .plan h3 {
+            color: #0052cc;
+        }
+
+        .plan p {
+            font-size: 18px;
+        }
+
+        .plan .price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00aaff;
+        }
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        .contact {
+            background: #0052cc;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .plans {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UltraNet</h1>
+    <p>Internet rápida, estável e confiável</p>
+</header>
+
+<nav>
+    <a href="#planos">Planos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+    <h1>Conectando você ao futuro</h1>
+</section>
+
+<section id="planos" class="container">
+    <h2 class="section-title">Nossos Planos</h2>
+
+    <div class="plans">
+        <div class="plan">
+            <h3>100 Mega</h3>
+            <p>Ideal para redes sociais</p>
+            <p class="price">R$ 79,90</p>
+        </div>
+
+        <div class="plan">
+            <h3>300 Mega</h3>
+            <p>Streaming e jogos online</p>
+            <p class="price">R$ 99,90</p>
+        </div>
+
+        <div class="plan">
+            <h3>600 Mega</h3>
+            <p>Ultra velocidade</p>
+            <p class="price">R$ 129,90</p>
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="container">
+    <h2 class="section-title">Sobre Nós</h2>
+
+    <div class="about">
+        <img src="https://picsum.photos/500/300?technology" alt="Internet fibra óptica">
+        <div>
+            <p>
+                A <strong>UltraNet</strong> é um provedor de internet fibra óptica,
+                oferecendo alta velocidade, baixa latência e suporte de qualidade.
+                Atuamos para levar a melhor conexão até você.
+            </p>
+            <p>
+                Nossa missão é conectar pessoas e empresas com tecnologia de ponta.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="contact">
+    <h2>Entre em Contato</h2>
+    <p>📞 Telefone: (11) 99999-9999</p>
+    <p>📧 Email: contato@ultranet.com.br</p>
+    <p>📍 Atendimento em toda a cidade</p>
+</section>
+
+<footer>
+    <p>© 2026 UltraNet - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
 
